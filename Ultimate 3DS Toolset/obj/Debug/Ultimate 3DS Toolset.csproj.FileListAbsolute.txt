@@ -1,0 +1,2 @@
+c:\users\tomek\documents\visual studio 2013\Projects\Ultimate 3DS Toolset\Ultimate 3DS Toolset\bin\Debug\Ultimate 3DS Toolset.exe.config
+C:\Users\Tomek\Documents\GitHub\Ultimate-3DS-Toolset\Ultimate 3DS Toolset\bin\Debug\Ultimate 3DS Toolset.exe.config
