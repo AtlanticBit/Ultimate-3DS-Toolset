@@ -121,4 +121,7 @@
     <value>The keyX is a very important key. It's used to decrypt 7.0+ system firmware titles. Some tools in this toolset need this key to function. The key is downloaded from
 a certain website. This can take a second, but the key will be useful.</value>
   </data>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
