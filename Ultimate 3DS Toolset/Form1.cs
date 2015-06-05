@@ -22,9 +22,11 @@ namespace Ultimate_3DS_Toolset
         private void button1_Click(object sender, EventArgs e)
         {
             progressBar1.Value = 0;
+            //This save file dialog allows you to choose where to save the keyx bin file
             DialogResult ret= saveFileDialog1.ShowDialog();
             if(ret==DialogResult.OK)
             {
+                //This downloads the keyx from a certain webpage, then writes it to a bin file
                 progressBar1.Value = 25;
                 StreamWriter writer = new StreamWriter(saveFileDialog1.FileName);
                 WebClient downloader = new WebClient();
