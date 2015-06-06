@@ -19,6 +19,24 @@ namespace Ultimate_3DS_Toolset
             InitializeComponent();
         }
 
+        private string HexAsciiConvert(string hex)
+        {
+
+            StringBuilder sb = new StringBuilder();
+
+            for (int i = 0; i <= hex.Length - 2; i += 2)
+            {
+
+                sb.Append(Convert.ToString(Convert.ToChar(Int32.Parse(hex.Substring(i, 2),
+
+                System.Globalization.NumberStyles.HexNumber))));
+
+            }
+
+            return sb.ToString();
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             progressBar1.Value = 0;
@@ -39,9 +57,8 @@ namespace Ultimate_3DS_Toolset
                     string[] line = reader.ReadLine().Split(' ');
                     if (line[0] == "keyX:")
                     {
-                        var value = Convert.ToInt64(line[1], 16);
-                        char charValue = (char)value;
-                        writer.Write(value);
+                        string win = HexAsciiConvert(line[1]);
+                        writer.Write(win);
                     }
                 }
                 progressBar1.Value = 90;
@@ -60,5 +77,20 @@ namespace Ultimate_3DS_Toolset
                 textBox1.Text = saveFileDialog1.FileName;
             }
         }
+    }
+    static class StringExtensions
+    {
+
+        public static IEnumerable<String> SplitInParts(this String s, Int32 partLength)
+        {
+            if (s == null)
+                throw new ArgumentNullException("s");
+            if (partLength <= 0)
+                throw new ArgumentException("Part length has to be positive.", "partLength");
+
+            for (var i = 0; i < s.Length; i += partLength)
+                yield return s.Substring(i, Math.Min(partLength, s.Length - i));
+        }
+
     }
 }

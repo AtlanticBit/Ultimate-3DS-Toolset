@@ -14,6 +14,6 @@ C:\Users\Tomek\Documents\GitHub\Ultimate-3DS-Toolset\Ultimate 3DS Toolset\obj\De
 C:\Users\Tomek\Documents\GitHub\Ultimate-3DS-Toolset\Ultimate 3DS Toolset\bin\Debug\Ultimate 3DS Toolset.exe
 C:\Users\Tomek\Documents\GitHub\Ultimate-3DS-Toolset\Ultimate 3DS Toolset\bin\Debug\Ultimate 3DS Toolset.pdb
 C:\Users\Tomek\Documents\GitHub\Ultimate-3DS-Toolset\Ultimate 3DS Toolset\obj\Debug\Ultimate 3DS Toolset.csprojResolveAssemblyReference.cache
-C:\Users\Tomek\Documents\GitHub\Ultimate-3DS-Toolset\Ultimate 3DS Toolset\obj\Debug\Ultimate_3DS_Toolset.Form1.resources
 C:\Users\Tomek\Documents\GitHub\Ultimate-3DS-Toolset\Ultimate 3DS Toolset\obj\Debug\Ultimate_3DS_Toolset.Properties.Resources.resources
 C:\Users\Tomek\Documents\GitHub\Ultimate-3DS-Toolset\Ultimate 3DS Toolset\obj\Debug\Ultimate 3DS Toolset.csproj.GenerateResource.Cache
+C:\Users\Tomek\Documents\GitHub\Ultimate-3DS-Toolset\Ultimate 3DS Toolset\obj\Debug\Ultimate_3DS_Toolset.Form1.resources
